@@ -19,8 +19,6 @@ class RegressionEvaluationMetrics(object):
         euclidean_distance = torch.dist(x, y)
         x = x.view(1, -1)
         y = y.view(-1, 1)
-        print(f"x shape: {x.shape}")
-        print(f"y shape: {y.shape}")
         return torch.mm(x, y) / (euclidean_distance ** 2 + torch.mm(x, y))
 
     @staticmethod
@@ -29,7 +27,6 @@ class RegressionEvaluationMetrics(object):
         y = target
         var_x, mean_x = torch.var_mean(x)
         var_y, mean_y = torch.var_mean(y)
-        print(x.view(-1, 1).shape[0])
         cov_x_y = torch.sum(torch.mul(x - mean_x, y - mean_y)) / x.view(-1, 1).shape[0]
         c1 = (0.01 * 1.8) ** 2
         c2 = (0.03 * 1.8) ** 2

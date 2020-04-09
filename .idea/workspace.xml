@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d299f0e2-c818-4262-a4a5-2acba78971cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/long_dl/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_evaluation_metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/long_dl/regression_evaluation_metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/long_dl/regression_evaluation_metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/long_dl/regression_evaluation_metrics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586421613775</updated>
-      <workItem from="1586421616835" duration="1933000" />
+      <workItem from="1586421616835" duration="2598000" />
     </task>
     <servers />
   </component>
